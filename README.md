@@ -11,7 +11,7 @@
 
 #### 		What are indexes?
 Indexes are server-side functions that define using which fields (and what values) document can be searched on and are the only way to satisfy queries in RavenDB. The whole indexing process is done in the background and is triggered whenever data is added or changed. This approach allows the server to respond quickly even when the large amounts of data have changed and avoid costly table scans operations, however implication of this choice is that the results might be stale.
-#### 		What is stale?
+#### 		What are stale results?
 Stale results, are result that might be not up-to-date
 #### 		What is a document store?
 A document store is the main client API object, which establishes and manages the connection channel between an application and a database instance. It acts as the connection manager and also exposes methods to perform all operations that you can run against an associated server instance.What are transformers? 
